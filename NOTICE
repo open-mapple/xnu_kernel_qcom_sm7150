@@ -1,0 +1,9 @@
+Open Mapple: the Qualcomm SM7150's layer of the XNU kernel.
+
+Nothing is in this repository yet beyond the README. What will move here is built into Apple's XNU, so it is under the Apple Public
+Source License 2.0 (LICENSE.APSL); files that are not XNU's own, such as drivers and tables from ios-sweet
+(github.com/dipa-studio/ios-sweet) and ios-sweet-pixel (github.com/hellagarage/ios-sweet-pixel), are MIT (LICENSE) with their authors'
+notices kept, as credited in xnu_kernel_qcom_common's NOTICE.
+
+Register addresses, values and the order of hardware steps come from the phones' own device trees and from Qualcomm's Linux sources as
+published by the phone makers (GPL-2.0), read, not copied.
